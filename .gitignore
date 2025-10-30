@@ -1,2 +1,12 @@
+# Neon Local data directory
+.neon_local/
+
+# Environment files with secrets
+.env.development
+.env.production
+
+# Docker override files
+docker-compose.override.yml
+
 node_modules
 .env.*

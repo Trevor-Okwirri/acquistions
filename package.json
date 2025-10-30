@@ -15,14 +15,17 @@
     "#validations/*": "./src/validations/*"
   },
   "scripts": {
-    "dev": "node --watch src/index.js",
+    "dev": "nodemon -L --watch src --exec node src/index.js",
+    "start": "node src/index.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "db:migrate": "drizzle-kit migrate",
     "db:generate": "drizzle-kit generate",
-    "db:studio": "drizzle-kit studio"
+    "db:studio": "drizzle-kit studio",
+    "dev:docker": "sh ./scripts/dev.sh",
+    "prod:docker": "sh ./scripts/prod.sh"
   },
   "repository": {
     "type": "git",
@@ -36,6 +39,8 @@
   },
   "homepage": "https://github.com/Trevor-Okwirri/acquistions#readme",
   "dependencies": {
+    "@arcjet/inspect": "^1.0.0-beta.13",
+    "@arcjet/node": "^1.0.0-beta.13",
     "@neondatabase/serverless": "^1.0.2",
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
@@ -46,6 +51,7 @@
     "helmet": "^8.1.0",
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.1",
+    "nodemon": "^3.1.10",
     "winston": "^3.18.3",
     "zod": "^4.1.12"
   },

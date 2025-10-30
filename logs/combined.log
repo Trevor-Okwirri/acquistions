@@ -85,3 +85,13 @@
 {"level":"info","message":"User authenticated successfully: adrian@email.com","service":"acquisitions-api"}
 {"level":"info","message":"User signed in successfully: adrian@email.com","service":"acquisitions-api"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [30/Oct/2025:18:58:29 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 115 \"-\" \"PostmanRuntime/7.44.1\"","service":"acquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/api/auth/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.44.1"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/api/auth/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.44.1"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/api/auth/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.44.1"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/api/auth/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.44.1"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/api/auth/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.44.1"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/api/auth/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.44.1"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/api/auth/sign-in","service":"acquisitions-api","userAgent":"PostmanRuntime/7.44.1"}
+{"level":"info","message":"::1 - - [30/Oct/2025:19:39:54 +0000] \"GET /api/auth/health HTTP/1.1\" 404 154 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [30/Oct/2025:19:40:03 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.44.1"}
