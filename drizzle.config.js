@@ -4,7 +4,7 @@ export default {
   schema: './src/models/*.js',
   out: './drizzle',
   dialect: 'postgresql',
-  dbCredentials:{
+  dbCredentials: {
     url: process.env.DATABASE_URL,
-  }
+  },
 };
